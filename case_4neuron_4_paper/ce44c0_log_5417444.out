@@ -1,0 +1,24 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+             R2021a Update 1 (9.10.0.1649659) 64-bit (glnxa64)
+                               April 13, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+********************************************************************
+2D Phase-field Neuron Growth solver using IGA-Collocation
+********************************************************************
+ Simulation Parameter Initialization - Done!
+Iterating Variable Initialization - Done!
+********************************************************************
+Neuron Growth Stage Variable Initialization - Done!
+********************************************************************
+Starting Neuron Growth Model transient iterations...
+{Index exceeds the number of array elements (3).
+
+Error in main_continue (line 474)
+            cue(:,:,k) =
+            1./sqrt(bsxfun(@times,(X-cx(k)),(X-cx(k)))+bsxfun(@times,(Y-cy(k)),(Y-cy(k))));} 

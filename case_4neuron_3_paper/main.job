@@ -1,0 +1,17 @@
+#!/bin/sh
+
+#SBATCH --ntasks-per-node=4
+#SBATCH --partition=RM-shared
+#SBATCH --mem-per-cpu=15000	
+#SBATCH --job-name=ce43
+#SBATCH --output=ce43_log_%j.out
+#SBATCH --time=48:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=kuanrenq@andrew.cmu.edu
+
+module load matlab
+
+srun --exclusive -n 1 -c 4 matlab -nodisplay -nodesktop -nosplash -r "main; exit" & wait
+
+#-- exit
+#
