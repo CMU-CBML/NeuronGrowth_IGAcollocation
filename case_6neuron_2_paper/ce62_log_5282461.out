@@ -1,0 +1,768 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+             R2021a Update 1 (9.10.0.1649659) 64-bit (glnxa64)
+                               April 13, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+********************************************************************
+2D Phase-field Neuron Growth solver using IGA-Collocation
+********************************************************************
+ Simulation Parameter Initialization - Done!
+Iterating Variable Initialization - Done!
+********************************************************************
+Neuron Growth Stage Variable Initialization - Done!
+********************************************************************
+Starting Neuron Growth Model transient iterations...
+Progress: 50/35000
+Elapsed time is 294.936125 seconds.
+Progress: 100/35000
+Elapsed time is 598.543928 seconds.
+Progress: 150/35000
+Elapsed time is 907.542982 seconds.
+Progress: 200/35000
+Elapsed time is 1216.038890 seconds.
+Progress: 250/35000
+Elapsed time is 1525.910182 seconds.
+Progress: 300/35000
+Elapsed time is 1834.621210 seconds.
+Progress: 350/35000
+Elapsed time is 2140.412461 seconds.
+Progress: 400/35000
+Elapsed time is 2446.934238 seconds.
+Progress: 450/35000
+Elapsed time is 2755.018593 seconds.
+Progress: 500/35000
+Elapsed time is 3060.221223 seconds.
+Progress: 550/35000
+Elapsed time is 3367.788833 seconds.
+Progress: 600/35000
+Elapsed time is 3673.583080 seconds.
+Progress: 650/35000
+Elapsed time is 3979.756860 seconds.
+Progress: 700/35000
+Elapsed time is 4285.109721 seconds.
+Progress: 750/35000
+Elapsed time is 4590.480158 seconds.
+Progress: 800/35000
+Elapsed time is 4891.988777 seconds.
+Progress: 850/35000
+Elapsed time is 5196.740334 seconds.
+Progress: 900/35000
+Elapsed time is 5498.851488 seconds.
+Progress: 950/35000
+Elapsed time is 5801.306302 seconds.
+Progress: 1000/35000
+Elapsed time is 6101.885075 seconds.
+Progress: 1050/35000
+Elapsed time is 6403.193549 seconds.
+Progress: 1100/35000
+Elapsed time is 6702.283535 seconds.
+Progress: 1150/35000
+Elapsed time is 7006.086028 seconds.
+Progress: 1200/35000
+Elapsed time is 7303.589497 seconds.
+Progress: 1250/35000
+Elapsed time is 7599.639412 seconds.
+Progress: 1300/35000
+Elapsed time is 7898.112641 seconds.
+Progress: 1350/35000
+Elapsed time is 8197.008087 seconds.
+Progress: 1400/35000
+Elapsed time is 8490.798842 seconds.
+Progress: 1450/35000
+Elapsed time is 8781.648553 seconds.
+Progress: 1500/35000
+Elapsed time is 9075.723506 seconds.
+Progress: 1550/35000
+Elapsed time is 9372.665143 seconds.
+Progress: 1600/35000
+Elapsed time is 9668.617078 seconds.
+Progress: 1650/35000
+Elapsed time is 9965.842938 seconds.
+Progress: 1700/35000
+Elapsed time is 10259.922537 seconds.
+Progress: 1750/35000
+Elapsed time is 10551.226982 seconds.
+Progress: 1800/35000
+Elapsed time is 10847.274048 seconds.
+Progress: 1850/35000
+Elapsed time is 11142.882354 seconds.
+Progress: 1900/35000
+Elapsed time is 11436.777937 seconds.
+Progress: 1950/35000
+Elapsed time is 11738.099536 seconds.
+Progress: 2000/35000
+Elapsed time is 12039.347307 seconds.
+Progress: 2050/35000
+Elapsed time is 12338.449404 seconds.
+Progress: 2100/35000
+Elapsed time is 12633.448067 seconds.
+Progress: 2150/35000
+Elapsed time is 12925.131483 seconds.
+Progress: 2200/35000
+Elapsed time is 13217.493871 seconds.
+Progress: 2250/35000
+Elapsed time is 13508.494740 seconds.
+Progress: 2300/35000
+Elapsed time is 13800.415175 seconds.
+Progress: 2350/35000
+Elapsed time is 14097.865794 seconds.
+Progress: 2400/35000
+Elapsed time is 14386.794370 seconds.
+Progress: 2450/35000
+Elapsed time is 14669.434582 seconds.
+Progress: 2500/35000
+Elapsed time is 14959.555816 seconds.
+Progress: 2550/35000
+Elapsed time is 15254.249164 seconds.
+Progress: 2600/35000
+Elapsed time is 15545.232061 seconds.
+Progress: 2650/35000
+Elapsed time is 15829.523703 seconds.
+Progress: 2700/35000
+Elapsed time is 16113.728251 seconds.
+Progress: 2750/35000
+Elapsed time is 16402.035064 seconds.
+Progress: 2800/35000
+Elapsed time is 16683.121144 seconds.
+Progress: 2850/35000
+Elapsed time is 16973.602418 seconds.
+Progress: 2900/35000
+Elapsed time is 17263.874875 seconds.
+Progress: 2950/35000
+Elapsed time is 17547.681871 seconds.
+Progress: 3000/35000
+Elapsed time is 17831.360094 seconds.
+Progress: 3050/35000
+Elapsed time is 18119.138006 seconds.
+Progress: 3100/35000
+Elapsed time is 18407.815405 seconds.
+Progress: 3150/35000
+Elapsed time is 18702.294769 seconds.
+Progress: 3200/35000
+Elapsed time is 18991.089763 seconds.
+Progress: 3250/35000
+Elapsed time is 19281.750874 seconds.
+Progress: 3300/35000
+Elapsed time is 19576.859727 seconds.
+Progress: 3350/35000
+Elapsed time is 19868.365951 seconds.
+Progress: 3400/35000
+Elapsed time is 20162.046567 seconds.
+Progress: 3450/35000
+Elapsed time is 20455.373838 seconds.
+********************************************************************
+Expanding Domain...
+Elapsed time is 20473.320738 seconds.
+********************************************************************
+Progress: 3500/35000
+Elapsed time is 20789.213710 seconds.
+Progress: 3550/35000
+Elapsed time is 21104.152713 seconds.
+Progress: 3600/35000
+Elapsed time is 21423.785681 seconds.
+Progress: 3650/35000
+Elapsed time is 21746.125289 seconds.
+Progress: 3700/35000
+Elapsed time is 22060.640209 seconds.
+Progress: 3750/35000
+Elapsed time is 22372.025745 seconds.
+Progress: 3800/35000
+Elapsed time is 22690.378157 seconds.
+Progress: 3850/35000
+Elapsed time is 23007.393262 seconds.
+Progress: 3900/35000
+Elapsed time is 23324.671720 seconds.
+Progress: 3950/35000
+Elapsed time is 23646.037280 seconds.
+Progress: 4000/35000
+Elapsed time is 23967.732158 seconds.
+Progress: 4050/35000
+Elapsed time is 24283.831069 seconds.
+Progress: 4100/35000
+Elapsed time is 24597.339385 seconds.
+Progress: 4150/35000
+Elapsed time is 24914.273552 seconds.
+Progress: 4200/35000
+Elapsed time is 25232.300107 seconds.
+Progress: 4250/35000
+Elapsed time is 25543.832035 seconds.
+Progress: 4300/35000
+Elapsed time is 25857.324693 seconds.
+Progress: 4350/35000
+Elapsed time is 26174.472797 seconds.
+Progress: 4400/35000
+Elapsed time is 26493.313205 seconds.
+Progress: 4450/35000
+Elapsed time is 26810.308009 seconds.
+Progress: 4500/35000
+Elapsed time is 27128.040319 seconds.
+Progress: 4550/35000
+Elapsed time is 27446.599052 seconds.
+Progress: 4600/35000
+Elapsed time is 27767.914783 seconds.
+Progress: 4650/35000
+Elapsed time is 28088.701798 seconds.
+Progress: 4700/35000
+Elapsed time is 28408.819239 seconds.
+Progress: 4750/35000
+Elapsed time is 28724.897647 seconds.
+Progress: 4800/35000
+Elapsed time is 29044.189014 seconds.
+Progress: 4850/35000
+Elapsed time is 29360.202829 seconds.
+Progress: 4900/35000
+Elapsed time is 29674.825373 seconds.
+Progress: 4950/35000
+Elapsed time is 29983.118567 seconds.
+Progress: 5000/35000
+Elapsed time is 30290.633767 seconds.
+Progress: 5050/35000
+Elapsed time is 30602.493475 seconds.
+Progress: 5100/35000
+Elapsed time is 30909.681355 seconds.
+Progress: 5150/35000
+Elapsed time is 31224.461307 seconds.
+Progress: 5200/35000
+Elapsed time is 31531.788044 seconds.
+Progress: 5250/35000
+Elapsed time is 31842.502247 seconds.
+Progress: 5300/35000
+Elapsed time is 32157.402724 seconds.
+Progress: 5350/35000
+Elapsed time is 32474.821544 seconds.
+Progress: 5400/35000
+Elapsed time is 32786.694297 seconds.
+Progress: 5450/35000
+Elapsed time is 33096.332815 seconds.
+Progress: 5500/35000
+Elapsed time is 33403.649465 seconds.
+Progress: 5550/35000
+Elapsed time is 33713.123328 seconds.
+Progress: 5600/35000
+Elapsed time is 34042.026778 seconds.
+Progress: 5650/35000
+Elapsed time is 34367.971721 seconds.
+Progress: 5700/35000
+Elapsed time is 34689.959873 seconds.
+Progress: 5750/35000
+Elapsed time is 35010.570197 seconds.
+Progress: 5800/35000
+Elapsed time is 35330.073458 seconds.
+Progress: 5850/35000
+Elapsed time is 35656.002957 seconds.
+Progress: 5900/35000
+Elapsed time is 35985.637586 seconds.
+Progress: 5950/35000
+Elapsed time is 36304.564614 seconds.
+Progress: 6000/35000
+Elapsed time is 36629.025261 seconds.
+Progress: 6050/35000
+Elapsed time is 36951.828454 seconds.
+Progress: 6100/35000
+Elapsed time is 37274.347774 seconds.
+Progress: 6150/35000
+Elapsed time is 37599.406657 seconds.
+Progress: 6200/35000
+Elapsed time is 37930.873953 seconds.
+Progress: 6250/35000
+Elapsed time is 38267.499578 seconds.
+Progress: 6300/35000
+Elapsed time is 38587.226066 seconds.
+Progress: 6350/35000
+Elapsed time is 38906.172786 seconds.
+Progress: 6400/35000
+Elapsed time is 39223.553725 seconds.
+Progress: 6450/35000
+Elapsed time is 39542.428487 seconds.
+Progress: 6500/35000
+Elapsed time is 39862.610324 seconds.
+Progress: 6550/35000
+Elapsed time is 40183.422193 seconds.
+Progress: 6600/35000
+Elapsed time is 40504.117413 seconds.
+Progress: 6650/35000
+Elapsed time is 40826.903179 seconds.
+Progress: 6700/35000
+Elapsed time is 41144.522641 seconds.
+Progress: 6750/35000
+Elapsed time is 41471.705373 seconds.
+Progress: 6800/35000
+Elapsed time is 41800.294788 seconds.
+Progress: 6850/35000
+Elapsed time is 42130.893238 seconds.
+********************************************************************
+Expanding Domain...
+Elapsed time is 42151.117581 seconds.
+********************************************************************
+Progress: 6900/35000
+Elapsed time is 42512.023874 seconds.
+Progress: 6950/35000
+Elapsed time is 42877.949170 seconds.
+Progress: 7000/35000
+Elapsed time is 43245.057367 seconds.
+Progress: 7050/35000
+Elapsed time is 43601.989372 seconds.
+Progress: 7100/35000
+Elapsed time is 43969.701377 seconds.
+Progress: 7150/35000
+Elapsed time is 44331.421641 seconds.
+Progress: 7200/35000
+Elapsed time is 44691.327784 seconds.
+Progress: 7250/35000
+Elapsed time is 45060.735741 seconds.
+Progress: 7300/35000
+Elapsed time is 45420.605501 seconds.
+Progress: 7350/35000
+Elapsed time is 45784.694875 seconds.
+Progress: 7400/35000
+Elapsed time is 46147.160428 seconds.
+Progress: 7450/35000
+Elapsed time is 46514.427561 seconds.
+Progress: 7500/35000
+Elapsed time is 46873.790262 seconds.
+Progress: 7550/35000
+Elapsed time is 47237.073695 seconds.
+Progress: 7600/35000
+Elapsed time is 47601.540957 seconds.
+Progress: 7650/35000
+Elapsed time is 47965.322018 seconds.
+Progress: 7700/35000
+Elapsed time is 48322.564280 seconds.
+Progress: 7750/35000
+Elapsed time is 48676.312790 seconds.
+Progress: 7800/35000
+Elapsed time is 49033.573997 seconds.
+Progress: 7850/35000
+Elapsed time is 49393.230010 seconds.
+Progress: 7900/35000
+Elapsed time is 49752.314732 seconds.
+Progress: 7950/35000
+Elapsed time is 50105.461617 seconds.
+Progress: 8000/35000
+Elapsed time is 50460.430993 seconds.
+Progress: 8050/35000
+Elapsed time is 50811.730819 seconds.
+********************************************************************
+Expanding Domain...
+Elapsed time is 50833.379725 seconds.
+********************************************************************
+Progress: 8100/35000
+Elapsed time is 51240.812057 seconds.
+Progress: 8150/35000
+Elapsed time is 51648.997720 seconds.
+Progress: 8200/35000
+Elapsed time is 52059.848116 seconds.
+Progress: 8250/35000
+Elapsed time is 52466.266506 seconds.
+Progress: 8300/35000
+Elapsed time is 52876.825097 seconds.
+Progress: 8350/35000
+Elapsed time is 53282.748281 seconds.
+Progress: 8400/35000
+Elapsed time is 53696.999682 seconds.
+Progress: 8450/35000
+Elapsed time is 54120.065704 seconds.
+Progress: 8500/35000
+Elapsed time is 54540.734023 seconds.
+Progress: 8550/35000
+Elapsed time is 54951.272061 seconds.
+Progress: 8600/35000
+Elapsed time is 55371.869095 seconds.
+Progress: 8650/35000
+Elapsed time is 55789.775001 seconds.
+Progress: 8700/35000
+Elapsed time is 56192.129538 seconds.
+Progress: 8750/35000
+Elapsed time is 56617.036769 seconds.
+Progress: 8800/35000
+Elapsed time is 57041.508663 seconds.
+Progress: 8850/35000
+Elapsed time is 57455.260725 seconds.
+********************************************************************
+Expanding Domain...
+Elapsed time is 57480.151080 seconds.
+********************************************************************
+Progress: 8900/35000
+Elapsed time is 57919.527241 seconds.
+Progress: 8950/35000
+Elapsed time is 58371.267664 seconds.
+Progress: 9000/35000
+Elapsed time is 58819.284958 seconds.
+Progress: 9050/35000
+Elapsed time is 59262.516452 seconds.
+Progress: 9100/35000
+Elapsed time is 59708.430735 seconds.
+Progress: 9150/35000
+Elapsed time is 60149.982427 seconds.
+Progress: 9200/35000
+Elapsed time is 60594.652744 seconds.
+Progress: 9250/35000
+Elapsed time is 61042.603276 seconds.
+Progress: 9300/35000
+Elapsed time is 61491.381236 seconds.
+Progress: 9350/35000
+Elapsed time is 61934.893054 seconds.
+Progress: 9400/35000
+Elapsed time is 62372.948225 seconds.
+Progress: 9450/35000
+Elapsed time is 62818.730856 seconds.
+Progress: 9500/35000
+Elapsed time is 63265.567361 seconds.
+Progress: 9550/35000
+Elapsed time is 63714.689947 seconds.
+Progress: 9600/35000
+Elapsed time is 64161.766152 seconds.
+Progress: 9650/35000
+Elapsed time is 64609.485442 seconds.
+********************************************************************
+Expanding Domain...
+Elapsed time is 64637.768881 seconds.
+********************************************************************
+Progress: 9700/35000
+Elapsed time is 65133.120604 seconds.
+Progress: 9750/35000
+Elapsed time is 65631.572891 seconds.
+Progress: 9800/35000
+Elapsed time is 66137.753181 seconds.
+Progress: 9850/35000
+Elapsed time is 66639.650918 seconds.
+Progress: 9900/35000
+Elapsed time is 67143.205554 seconds.
+Progress: 9950/35000
+Elapsed time is 67640.875023 seconds.
+Progress: 10000/35000
+Elapsed time is 68141.591347 seconds.
+Progress: 10050/35000
+Elapsed time is 68645.670255 seconds.
+Progress: 10100/35000
+Elapsed time is 69146.736888 seconds.
+Progress: 10150/35000
+Elapsed time is 69646.683390 seconds.
+Progress: 10200/35000
+Elapsed time is 70147.072701 seconds.
+Progress: 10250/35000
+Elapsed time is 70641.423500 seconds.
+Progress: 10300/35000
+Elapsed time is 71143.408880 seconds.
+Progress: 10350/35000
+Elapsed time is 71650.064581 seconds.
+Progress: 10400/35000
+Elapsed time is 72156.065453 seconds.
+Progress: 10450/35000
+Elapsed time is 72657.553776 seconds.
+Progress: 10500/35000
+Elapsed time is 73156.278749 seconds.
+Progress: 10550/35000
+Elapsed time is 73645.376030 seconds.
+Progress: 10600/35000
+Elapsed time is 74110.222403 seconds.
+Progress: 10650/35000
+Elapsed time is 74596.079331 seconds.
+Progress: 10700/35000
+Elapsed time is 75074.031553 seconds.
+Progress: 10750/35000
+Elapsed time is 75557.430050 seconds.
+Progress: 10800/35000
+Elapsed time is 76036.154571 seconds.
+Progress: 10850/35000
+Elapsed time is 76518.106241 seconds.
+Progress: 10900/35000
+Elapsed time is 77000.706562 seconds.
+Progress: 10950/35000
+Elapsed time is 77480.681288 seconds.
+Progress: 11000/35000
+Elapsed time is 77954.642315 seconds.
+Progress: 11050/35000
+Elapsed time is 78448.435174 seconds.
+Progress: 11100/35000
+Elapsed time is 78933.216479 seconds.
+Progress: 11150/35000
+Elapsed time is 79424.047727 seconds.
+********************************************************************
+Expanding Domain...
+Elapsed time is 79456.028197 seconds.
+********************************************************************
+Progress: 11200/35000
+Elapsed time is 79992.013861 seconds.
+Progress: 11250/35000
+Elapsed time is 80549.753992 seconds.
+Progress: 11300/35000
+Elapsed time is 81099.035679 seconds.
+Progress: 11350/35000
+Elapsed time is 81649.306719 seconds.
+Progress: 11400/35000
+Elapsed time is 82199.391157 seconds.
+Progress: 11450/35000
+Elapsed time is 82753.006310 seconds.
+Progress: 11500/35000
+Elapsed time is 83306.413378 seconds.
+Progress: 11550/35000
+Elapsed time is 83863.660411 seconds.
+Progress: 11600/35000
+Elapsed time is 84408.694579 seconds.
+Progress: 11650/35000
+Elapsed time is 84964.129208 seconds.
+Progress: 11700/35000
+Elapsed time is 85514.473736 seconds.
+Progress: 11750/35000
+Elapsed time is 86054.328657 seconds.
+Progress: 11800/35000
+Elapsed time is 86594.245066 seconds.
+Progress: 11850/35000
+Elapsed time is 87148.484753 seconds.
+Progress: 11900/35000
+Elapsed time is 87702.977612 seconds.
+Progress: 11950/35000
+Elapsed time is 88239.608774 seconds.
+Progress: 12000/35000
+Elapsed time is 88780.421622 seconds.
+Progress: 12050/35000
+Elapsed time is 89330.864717 seconds.
+Progress: 12100/35000
+Elapsed time is 89877.014777 seconds.
+Progress: 12150/35000
+Elapsed time is 90424.593487 seconds.
+Progress: 12200/35000
+Elapsed time is 90947.755530 seconds.
+********************************************************************
+Expanding Domain...
+Elapsed time is 90982.514095 seconds.
+********************************************************************
+Progress: 12250/35000
+Elapsed time is 91565.813280 seconds.
+Progress: 12300/35000
+Elapsed time is 92156.966857 seconds.
+Progress: 12350/35000
+Elapsed time is 92758.465223 seconds.
+Progress: 12400/35000
+Elapsed time is 93353.383074 seconds.
+Progress: 12450/35000
+Elapsed time is 93949.361782 seconds.
+Progress: 12500/35000
+Elapsed time is 94542.323310 seconds.
+Progress: 12550/35000
+Elapsed time is 95128.791756 seconds.
+Progress: 12600/35000
+Elapsed time is 95732.434869 seconds.
+Progress: 12650/35000
+Elapsed time is 96341.856775 seconds.
+Progress: 12700/35000
+Elapsed time is 96948.818253 seconds.
+Progress: 12750/35000
+Elapsed time is 97539.237507 seconds.
+Progress: 12800/35000
+Elapsed time is 98149.121278 seconds.
+Progress: 12850/35000
+Elapsed time is 98752.180261 seconds.
+Progress: 12900/35000
+Elapsed time is 99359.192478 seconds.
+Progress: 12950/35000
+Elapsed time is 99959.572870 seconds.
+Progress: 13000/35000
+Elapsed time is 100568.238035 seconds.
+Progress: 13050/35000
+Elapsed time is 101177.216537 seconds.
+Progress: 13100/35000
+Elapsed time is 101776.313805 seconds.
+Progress: 13150/35000
+Elapsed time is 102381.367539 seconds.
+Progress: 13200/35000
+Elapsed time is 102971.201718 seconds.
+Progress: 13250/35000
+Elapsed time is 103565.872745 seconds.
+Progress: 13300/35000
+Elapsed time is 104171.637226 seconds.
+Progress: 13350/35000
+Elapsed time is 104778.125993 seconds.
+Progress: 13400/35000
+Elapsed time is 105394.617939 seconds.
+Progress: 13450/35000
+Elapsed time is 106027.440733 seconds.
+Progress: 13500/35000
+Elapsed time is 106629.136237 seconds.
+Progress: 13550/35000
+Elapsed time is 107230.276009 seconds.
+Progress: 13600/35000
+Elapsed time is 107841.199864 seconds.
+********************************************************************
+Expanding Domain...
+Elapsed time is 107880.744709 seconds.
+********************************************************************
+Progress: 13650/35000
+Elapsed time is 108572.074994 seconds.
+Progress: 13700/35000
+Elapsed time is 109275.441548 seconds.
+Progress: 13750/35000
+Elapsed time is 109962.283209 seconds.
+Progress: 13800/35000
+Elapsed time is 110620.472665 seconds.
+Progress: 13850/35000
+Elapsed time is 111299.606697 seconds.
+Progress: 13900/35000
+Elapsed time is 111988.674507 seconds.
+Progress: 13950/35000
+Elapsed time is 112679.691687 seconds.
+Progress: 14000/35000
+Elapsed time is 113360.999378 seconds.
+Progress: 14050/35000
+Elapsed time is 114050.653880 seconds.
+Progress: 14100/35000
+Elapsed time is 114769.896498 seconds.
+Progress: 14150/35000
+Elapsed time is 115462.554141 seconds.
+Progress: 14200/35000
+Elapsed time is 116156.923783 seconds.
+Progress: 14250/35000
+Elapsed time is 116862.299271 seconds.
+Progress: 14300/35000
+Elapsed time is 117545.445854 seconds.
+Progress: 14350/35000
+Elapsed time is 118250.290138 seconds.
+Progress: 14400/35000
+Elapsed time is 118939.799105 seconds.
+********************************************************************
+Expanding Domain...
+Elapsed time is 118983.366170 seconds.
+********************************************************************
+Progress: 14450/35000
+Elapsed time is 119724.120428 seconds.
+Progress: 14500/35000
+Elapsed time is 120486.203973 seconds.
+Progress: 14550/35000
+Elapsed time is 121268.806015 seconds.
+Progress: 14600/35000
+Elapsed time is 122019.828199 seconds.
+Progress: 14650/35000
+Elapsed time is 122775.900838 seconds.
+Progress: 14700/35000
+Elapsed time is 123522.686055 seconds.
+Progress: 14750/35000
+Elapsed time is 124273.802478 seconds.
+Progress: 14800/35000
+Elapsed time is 125021.680036 seconds.
+Progress: 14850/35000
+Elapsed time is 125760.336573 seconds.
+Progress: 14900/35000
+Elapsed time is 126522.463568 seconds.
+Progress: 14950/35000
+Elapsed time is 127266.911991 seconds.
+********************************************************************
+Expanding Domain...
+Elapsed time is 127314.096187 seconds.
+********************************************************************
+Progress: 15000/35000
+Elapsed time is 128127.431174 seconds.
+Progress: 15050/35000
+Elapsed time is 128944.209673 seconds.
+Progress: 15100/35000
+Elapsed time is 129768.045081 seconds.
+Progress: 15150/35000
+Elapsed time is 130602.480431 seconds.
+Progress: 15200/35000
+Elapsed time is 131427.095260 seconds.
+Progress: 15250/35000
+Elapsed time is 132249.547646 seconds.
+Progress: 15300/35000
+Elapsed time is 133063.000871 seconds.
+Progress: 15350/35000
+Elapsed time is 133887.758531 seconds.
+Progress: 15400/35000
+Elapsed time is 134699.420833 seconds.
+Progress: 15450/35000
+Elapsed time is 135529.136550 seconds.
+Progress: 15500/35000
+Elapsed time is 136356.490780 seconds.
+Progress: 15550/35000
+Elapsed time is 137184.314051 seconds.
+Progress: 15600/35000
+Elapsed time is 138014.778332 seconds.
+Progress: 15650/35000
+Elapsed time is 138843.762771 seconds.
+Progress: 15700/35000
+Elapsed time is 139662.406784 seconds.
+Progress: 15750/35000
+Elapsed time is 140479.518730 seconds.
+Progress: 15800/35000
+Elapsed time is 141303.517087 seconds.
+********************************************************************
+Expanding Domain...
+Elapsed time is 141355.027580 seconds.
+********************************************************************
+Progress: 15850/35000
+Elapsed time is 142245.578254 seconds.
+Progress: 15900/35000
+Elapsed time is 143159.193522 seconds.
+Progress: 15950/35000
+Elapsed time is 144075.168777 seconds.
+Progress: 16000/35000
+Elapsed time is 144996.207073 seconds.
+Progress: 16050/35000
+Elapsed time is 145916.557926 seconds.
+Progress: 16100/35000
+Elapsed time is 146836.780869 seconds.
+Progress: 16150/35000
+Elapsed time is 147751.498074 seconds.
+Progress: 16200/35000
+Elapsed time is 148677.710852 seconds.
+Progress: 16250/35000
+Elapsed time is 149586.226632 seconds.
+Progress: 16300/35000
+Elapsed time is 150495.724863 seconds.
+Progress: 16350/35000
+Elapsed time is 151428.133760 seconds.
+Progress: 16400/35000
+Elapsed time is 152341.395353 seconds.
+Progress: 16450/35000
+Elapsed time is 153234.711444 seconds.
+Progress: 16500/35000
+Elapsed time is 154161.116650 seconds.
+Progress: 16550/35000
+Elapsed time is 155071.602806 seconds.
+Progress: 16600/35000
+Elapsed time is 155989.526265 seconds.
+Progress: 16650/35000
+Elapsed time is 156908.698528 seconds.
+Progress: 16700/35000
+Elapsed time is 157825.888584 seconds.
+Progress: 16750/35000
+Elapsed time is 158753.114980 seconds.
+Progress: 16800/35000
+Elapsed time is 159674.301629 seconds.
+Progress: 16850/35000
+Elapsed time is 160598.293008 seconds.
+Progress: 16900/35000
+Elapsed time is 161524.746753 seconds.
+********************************************************************
+Expanding Domain...
+Elapsed time is 161582.268737 seconds.
+********************************************************************
+Progress: 16950/35000
+Elapsed time is 162553.618410 seconds.
+Progress: 17000/35000
+Elapsed time is 163566.192242 seconds.
+Progress: 17050/35000
+Elapsed time is 164562.480181 seconds.
+Progress: 17100/35000
+Elapsed time is 165570.485069 seconds.
+Progress: 17150/35000
+Elapsed time is 166586.964392 seconds.
+Progress: 17200/35000
+Elapsed time is 167595.637539 seconds.
+Progress: 17250/35000
+Elapsed time is 168591.488798 seconds.
+Progress: 17300/35000
+Elapsed time is 169587.402649 seconds.
+Progress: 17350/35000
+Elapsed time is 170605.442602 seconds.
+Progress: 17400/35000
+Elapsed time is 171617.232187 seconds.
+Progress: 17450/35000
+Elapsed time is 172606.503803 seconds.
+slurmstepd: error: *** JOB 5282461 ON r015 CANCELLED AT 2021-12-01T14:17:16 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 5282461.0 ON r015 CANCELLED AT 2021-12-01T14:17:16 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 302 seconds for job step to finish.

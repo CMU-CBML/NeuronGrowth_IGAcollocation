@@ -1,0 +1,218 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+             R2021a Update 1 (9.10.0.1649659) 64-bit (glnxa64)
+                               April 13, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+********************************************************************
+2D Phase-field Neuron Growth solver using IGA-Collocation
+********************************************************************
+ Simulation Parameter Initialization - Done!
+Iterating Variable Initialization - Done!
+********************************************************************
+Neuron Growth Stage Variable Initialization - Done!
+********************************************************************
+Starting Neuron Growth Model transient iterations...
+Progress: 22550/35000
+Elapsed time is 1510.403723 seconds.
+Progress: 22600/35000
+Elapsed time is 3065.925483 seconds.
+Progress: 22650/35000
+Elapsed time is 4600.093061 seconds.
+Progress: 22700/35000
+Elapsed time is 6138.257897 seconds.
+********************************************************************
+Expanding Domain...
+Elapsed time is 6240.481906 seconds.
+********************************************************************
+Progress: 22750/35000
+Elapsed time is 7895.994845 seconds.
+Progress: 22800/35000
+Elapsed time is 9551.789763 seconds.
+Progress: 22850/35000
+Elapsed time is 11233.106269 seconds.
+Progress: 22900/35000
+Elapsed time is 12905.909233 seconds.
+Progress: 22950/35000
+Elapsed time is 14569.361808 seconds.
+Progress: 23000/35000
+Elapsed time is 16218.341849 seconds.
+Progress: 23050/35000
+Elapsed time is 17878.339444 seconds.
+Progress: 23100/35000
+Elapsed time is 19535.121009 seconds.
+Progress: 23150/35000
+Elapsed time is 21184.646543 seconds.
+Progress: 23200/35000
+Elapsed time is 22813.229390 seconds.
+Progress: 23250/35000
+Elapsed time is 24446.767059 seconds.
+Progress: 23300/35000
+Elapsed time is 26095.195562 seconds.
+Progress: 23350/35000
+Elapsed time is 27745.403160 seconds.
+Progress: 23400/35000
+Elapsed time is 29385.324699 seconds.
+********************************************************************
+Expanding Domain...
+Elapsed time is 29492.794687 seconds.
+********************************************************************
+Progress: 23450/35000
+Elapsed time is 31208.113668 seconds.
+Progress: 23500/35000
+Elapsed time is 32938.415106 seconds.
+Progress: 23550/35000
+Elapsed time is 34715.652350 seconds.
+Progress: 23600/35000
+Elapsed time is 36468.779488 seconds.
+Progress: 23650/35000
+Elapsed time is 38229.138577 seconds.
+Progress: 23700/35000
+Elapsed time is 39986.814199 seconds.
+Progress: 23750/35000
+Elapsed time is 41720.232070 seconds.
+Progress: 23800/35000
+Elapsed time is 43494.724267 seconds.
+Progress: 23850/35000
+Elapsed time is 45240.772690 seconds.
+Progress: 23900/35000
+Elapsed time is 47000.945593 seconds.
+Progress: 23950/35000
+Elapsed time is 48780.105718 seconds.
+********************************************************************
+Expanding Domain...
+Elapsed time is 48897.822071 seconds.
+********************************************************************
+Progress: 24000/35000
+Elapsed time is 50816.770203 seconds.
+Progress: 24050/35000
+Elapsed time is 52769.500225 seconds.
+Progress: 24100/35000
+Elapsed time is 54717.066149 seconds.
+Progress: 24150/35000
+Elapsed time is 56664.776860 seconds.
+Progress: 24200/35000
+Elapsed time is 58600.828970 seconds.
+Progress: 24250/35000
+Elapsed time is 60573.388335 seconds.
+Progress: 24300/35000
+Elapsed time is 62531.031624 seconds.
+Progress: 24350/35000
+Elapsed time is 64460.960998 seconds.
+Progress: 24400/35000
+Elapsed time is 66417.497284 seconds.
+Progress: 24450/35000
+Elapsed time is 68357.353418 seconds.
+Progress: 24500/35000
+Elapsed time is 70304.146347 seconds.
+********************************************************************
+Expanding Domain...
+Elapsed time is 70432.190247 seconds.
+********************************************************************
+Progress: 24550/35000
+Elapsed time is 72485.310555 seconds.
+Progress: 24600/35000
+Elapsed time is 74558.668110 seconds.
+Progress: 24650/35000
+Elapsed time is 76634.846897 seconds.
+Progress: 24700/35000
+Elapsed time is 78701.557806 seconds.
+Progress: 24750/35000
+Elapsed time is 80775.103750 seconds.
+Progress: 24800/35000
+Elapsed time is 82837.522712 seconds.
+Progress: 24850/35000
+Elapsed time is 84927.296202 seconds.
+Progress: 24900/35000
+Elapsed time is 86999.293939 seconds.
+Progress: 24950/35000
+Elapsed time is 89065.445839 seconds.
+Progress: 25000/35000
+Elapsed time is 91100.124397 seconds.
+Progress: 25050/35000
+Elapsed time is 93163.164720 seconds.
+Progress: 25100/35000
+Elapsed time is 95200.287647 seconds.
+Progress: 25150/35000
+Elapsed time is 97214.701310 seconds.
+Progress: 25200/35000
+Elapsed time is 99286.346233 seconds.
+Progress: 25250/35000
+Elapsed time is 101362.993555 seconds.
+Progress: 25300/35000
+Elapsed time is 103405.502146 seconds.
+Progress: 25350/35000
+Elapsed time is 105442.348772 seconds.
+Progress: 25400/35000
+Elapsed time is 107477.759088 seconds.
+********************************************************************
+Expanding Domain...
+Elapsed time is 107612.514815 seconds.
+********************************************************************
+Progress: 25450/35000
+Elapsed time is 109759.172866 seconds.
+Progress: 25500/35000
+Elapsed time is 111973.780238 seconds.
+Progress: 25550/35000
+Elapsed time is 114187.010774 seconds.
+Progress: 25600/35000
+Elapsed time is 116374.403300 seconds.
+Progress: 25650/35000
+Elapsed time is 118604.542492 seconds.
+Progress: 25700/35000
+Elapsed time is 120818.379169 seconds.
+Progress: 25750/35000
+Elapsed time is 123047.244503 seconds.
+Progress: 25800/35000
+Elapsed time is 125255.709344 seconds.
+Progress: 25850/35000
+Elapsed time is 127446.861255 seconds.
+Progress: 25900/35000
+Elapsed time is 129653.044234 seconds.
+Progress: 25950/35000
+Elapsed time is 131884.857405 seconds.
+Progress: 26000/35000
+Elapsed time is 134086.062252 seconds.
+Progress: 26050/35000
+Elapsed time is 136269.578606 seconds.
+********************************************************************
+Expanding Domain...
+Elapsed time is 136414.727088 seconds.
+********************************************************************
+Progress: 26100/35000
+Elapsed time is 138790.472318 seconds.
+Progress: 26150/35000
+Elapsed time is 141166.749354 seconds.
+Progress: 26200/35000
+Elapsed time is 143550.668736 seconds.
+Progress: 26250/35000
+Elapsed time is 145918.837304 seconds.
+Progress: 26300/35000
+Elapsed time is 148311.933629 seconds.
+Progress: 26350/35000
+Elapsed time is 150688.833453 seconds.
+Progress: 26400/35000
+Elapsed time is 153072.759557 seconds.
+Progress: 26450/35000
+Elapsed time is 155462.169784 seconds.
+Progress: 26500/35000
+Elapsed time is 157821.811091 seconds.
+Progress: 26550/35000
+Elapsed time is 160227.379755 seconds.
+Progress: 26600/35000
+Elapsed time is 162626.098693 seconds.
+Progress: 26650/35000
+Elapsed time is 165057.761782 seconds.
+Progress: 26700/35000
+Elapsed time is 167462.961558 seconds.
+Progress: 26750/35000
+Elapsed time is 169888.366160 seconds.
+Progress: 26800/35000
+Elapsed time is 172296.622692 seconds.
+srun: Job step aborted: Waiting up to 302 seconds for job step to finish.
+slurmstepd: error: *** STEP 5409881.0 ON r035 CANCELLED AT 2021-12-05T16:22:41 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 5409881 ON r035 CANCELLED AT 2021-12-05T16:22:41 DUE TO TIME LIMIT ***
