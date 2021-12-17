@@ -5,7 +5,6 @@
 This code is the implementation of the phase field model using isogeometric collocation to simulate multiple stages of neuron growth by considering the effect of tubulin. The stages modeled include lamellipodia formation, initial neurite outgrowth, axon differentiation, and dendrite formation considering the effect of intracellular transport of tubulin on neurite outgrowth. The gradient computation of Φ is carried out using cubic B-splines to increase the smoothness of the solution.
 
 ![Neuron Growth Stages](./Neuron_Growth_Figures/Simulation_stages.png)
-![Single Neuron Growth Results](./Neuron_Growth_Figures/Single_Neuron_Results.png)
 
 ## File structures
 - **[Neuron_Growth_Code](https://github.com/CMU-CBML/NeuronGrowth_IGAcollocation/tree/main/Neuron_Growth_Code)**: contains the implementation of 2D Phase field model for neuron growth code using isogeometric collocation method.
