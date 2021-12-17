@@ -2,15 +2,13 @@
 IGA-collocation Implementation for 2D neuron growth using Phase-field model
 
 ## User Guide
-This code is the implementation of the phase field model with isogeometric collocation to simulate different stages of neuron growth by
-considering the effect of tubulin. The stages modeled include lamellipodia formation, initial neurite outgrowth, axon differentiation, and
-dendrite formation considering the effect of intracellular transport of tubulin on neurite outgrowth. The gradient computation of $\phi$ is carried out using cubic B-splines to increase the smoothness of the solution.
+This code is the implementation of the phase field model with isogeometric collocation to simulate different stages of neuron growth by considering the effect of tubulin. The stages modeled include lamellipodia formation, initial neurite outgrowth, axon differentiation, and dendrite formation considering the effect of intracellular transport of tubulin on neurite outgrowth. The gradient computation of $\phi$ is carried out using cubic B-splines to increase the smoothness of the solution.
 
 ### File structures
-*Neuron_Growth_Code folder* contains the implementation of 2D Phase field model for neuron growth code using isogeometric collocation method.
-*Simulation_Cases_in_paper* folder contains simulation cases used in paper (see below). Each case can be reproduced by using the same random seed saved in the folder. (Note that these simulations were restarted, so random seed needs to be set based on log file)
-* *IGA_collocation_algorithm* folder contains functions built and used in the model.
-* *case_Xneuron_X_paper* folders contain code and saved data necessary to reproduce simulation results shown in the paper.
+- *Neuron_Growth_Code folder* contains the implementation of 2D Phase field model for neuron growth code using isogeometric collocation method.
+- *Simulation_Cases_in_paper* folder contains simulation cases used in paper (see below). Each case can be reproduced by using the same random seed saved in the folder. (Note that these simulations were restarted, so random seed needs to be set based on log file)
+	- *IGA_collocation_algorithm* folder contains functions built and used in the model.
+	- *case_Xneuron_X_paper* folders contain code and saved data necessary to reproduce simulation results shown in the paper.
 
 ### How to run
 1. Have a valid installation of Matlab
