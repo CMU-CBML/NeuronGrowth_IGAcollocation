@@ -1,5 +1,5 @@
 # NeuronGrowth_IGAcollocation
-2D Neuron growth using Phase-field model implemented using isogeometric collocation method (IGA-collocation).
+2D Multi-stage neuron growth using Phase-field model implemented using isogeometric collocation method (IGA-collocation).
 
 ![Neuron Growth Stages](./Neuron_Growth_Figures/Simulation_stages.png)
 
