@@ -17,4 +17,4 @@ This code is the implementation of the phase field model using isogeometric coll
 
 ## 
 The matlab code implemented banded matrix calculation to speed up multiplications. To see the full equations, please refer to our paper:
-*Modeling Neuron Growth Using Isogeometric Collocation Based Phase Field Method* (in preparation)
+- Modeling Neuron Growth Using Isogeometric Collocation Based Phase Field Method* (in preparation)
