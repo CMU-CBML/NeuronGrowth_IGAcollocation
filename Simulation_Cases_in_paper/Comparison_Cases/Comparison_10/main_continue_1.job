@@ -1,0 +1,15 @@
+#!/bin/sh
+
+#SBATCH --ntasks-per-node=4
+#SBATCH --partition=RM-shared
+#SBATCH --mem-per-cpu=15000	
+#SBATCH --job-name=cp10c1
+#SBATCH --output=cp10c1_log_%j.out
+#SBATCH --time=48:00:00
+
+module load matlab
+
+srun --exclusive -n 1 -c 4 matlab -nodisplay -nodesktop -nosplash -r "main_continue_0; exit" & wait
+
+#-- exit
+#

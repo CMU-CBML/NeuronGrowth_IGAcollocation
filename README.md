@@ -7,15 +7,15 @@ considering the effect of tubulin. The stages modeled include lamellipodia forma
 dendrite formation considering the effect of intracellular transport of tubulin on neurite outgrowth. The gradient computation of $\phi$ is carried out using cubic B-splines to increase the smoothness of the solution.
 
 ### File structures
-*Neuron_Growth_Code folder* contains the implementation of 2D Phase field model for neuron growth code using isogeometric collocation method. 
-*IGA_collocation_algorithm* folder contains functions built and used in the model.
-*case_Xneuron_X_paper* folders contain code and saved data necessary to reproduce simulation results shown in the paper.
+*Neuron_Growth_Code folder* contains the implementation of 2D Phase field model for neuron growth code using isogeometric collocation method.
+*Simulation_Cases_in_paper* folder contains simulation cases used in paper (see below). Each case can be reproduced by using the same random seed saved in the folder. (Note that these simulations were restarted, so random seed needs to be set based on log file)
+* *IGA_collocation_algorithm* folder contains functions built and used in the model.
+* *case_Xneuron_X_paper* folders contain code and saved data necessary to reproduce simulation results shown in the paper.
 
 ### How to run
 1. Have a valid installation of Matlab
 2. Navigate to *Neuron_Growth_Code folder*
-3. Run *main.m*
-
+3. Run *main.m* in each folder for that specific case
 ### 
 The matlab code implemented banded matrix calculation to speed up multiplications. To see the full equations, please refer to our paper:
 *Modeling Neuron Growth Using Isogeometric Collocation Based Phase Field Method*
