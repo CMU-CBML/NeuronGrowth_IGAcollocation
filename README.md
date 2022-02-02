@@ -16,7 +16,7 @@ This code is the implementation of the phase field model using isogeometric coll
 ## How to run
 1. Valid installation of Matlab (code written with Matlab 2021a)
 2. Navigate to **[Neuron_Growth_Code](https://github.com/CMU-CBML/NeuronGrowth_IGAcollocation/tree/main/Neuron_Growth_Code)**
-3. Run *main.m*. For simulation cases in paper, run *main.m* in each folder for that specific case.
+3. Run *main.m*. For simulation cases in paper, run *main.m* in each folder for that specific case (make sure to load the random seed first, line 17-19).
 4. Note that cases were ran on Extreme Science and Engineering Discovery Environment (XSEDE) server, which limits wall time to 48 hrs, so most simulations required a restart. To reproduce exact results, please load the saved random seed at correct iterations based on the log file.
 
 ## 
